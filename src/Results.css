@@ -1,0 +1,46 @@
+.results-container {
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.sample-quality {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+}
+
+.sample-quality.high {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.sample-quality.medium {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.sample-quality.low {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Tailwind CSS styles for responsiveness */
+@media (max-width: 800px) {
+    .results-container {
+        padding: 0.5rem;
+    }
+}
